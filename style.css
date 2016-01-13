@@ -7,18 +7,37 @@ body {
 	width:446px;
 }
 
+#multipleWallet {
+  background: url('img/multiplewallet.jpg');
+  background-size: cover;
+}
+
 #multipleWallet:hover {
-  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-multiple-wallet-taurillon-leather-small-leather-goods--M58801_PM1_Interior%20view.jpg');
+  background: url('img/multiplewallet_hover.jpg');
+  background-size: cover;
+}
+
+#slenderWallet {
+  background: url('img/slenderwallet.jpg');
+  background-size: cover;
 }
 
 #slenderWallet:hover {
-  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-slender-wallet-taiga-leather-small-leather-goods--M32703_PM1_Interior%20view.jpg');
+  background: url('img/slenderwallet_hover.jpg');
+  background-size: cover;
 }
 
-#briefcaseBlack:hover {
-  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-slender-wallet-taiga-leather-small-leather-goods--M32703_PM1_Interior%20view.jpg');
+#briefcaseBlack {
+  background: url('img/briefcaseblack.jpg');
+  background-size: cover;
+}
+
+#briefcaseGrey {
+  background: url('img/briefcasegrey.jpg');
+  background-size: cover;
 }
 
 #briefcaseGrey:hover {
-  background-image: url('  http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-porte-documents-business-taiga-leather-men-s-bags--M32709_PM1_Interior%20view.jpg');
+  background: url('img/briefcasegrey_hover.jpg');
+  background-size: cover;
 }
