@@ -2,4 +2,23 @@ body {
   
 }
 
+.product {
+	height:446px;
+	width:446px;
+}
 
+#multipleWallet:hover {
+  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-multiple-wallet-taurillon-leather-small-leather-goods--M58801_PM1_Interior%20view.jpg');
+}
+
+#slenderWallet:hover {
+  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-slender-wallet-taiga-leather-small-leather-goods--M32703_PM1_Interior%20view.jpg');
+}
+
+#briefcaseBlack:hover {
+  background-image: url('http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-slender-wallet-taiga-leather-small-leather-goods--M32703_PM1_Interior%20view.jpg');
+}
+
+#briefcaseGrey:hover {
+  background-image: url('  http://us.louisvuitton.com/images/is/image/lv/1/PP_VP_M/louis-vuitton-porte-documents-business-taiga-leather-men-s-bags--M32709_PM1_Interior%20view.jpg');
+}
