@@ -3,8 +3,11 @@ body {
 }
 
 .product {
-	height:446px;
-	width:446px;
+	float: left;
+	height: 346px;
+	width: 346px;
+	margin: 20px;
+	border: 1px solid black;
 }
 
 #multipleWallet {
@@ -27,6 +30,10 @@ body {
   background-size: cover;
 }
 
+#section_break {
+	clear: left;
+}
+
 #briefcaseBlack {
   background: url('img/briefcaseblack.jpg');
   background-size: cover;
@@ -40,4 +47,16 @@ body {
 #briefcaseGrey:hover {
   background: url('img/briefcasegrey_hover.jpg');
   background-size: cover;
+}
+
+
+/* Portrait tablet and below */
+@media all and (max-width: 767px){
+	.product {
+		float: left;
+		height: 246px;
+		width: 246px;
+		margin: 10px;
+		border: 1px solid black;
+	}
 }
