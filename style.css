@@ -2,6 +2,9 @@ body {
 	width: 100%;
 	margin: auto 0;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+}
+
+.bodywallpaper {
 	background: url('img/wallpaper.jpg');
 }
 
