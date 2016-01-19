@@ -188,6 +188,28 @@ text-align: center;
 
 
 
+.eventbox {
+	width: 400px;
+	margin-left: 33%;
+	padding: 10px;
+	background-color: #ac7339;
+	margin-top: 25px;
+}
+
+.eventbox img {
+	width: 400px;
+}
+
+.eventbox a {
+
+}
+
+.eventbox img p h3 {
+	display: inline-block;
+}
+
+
+
 
 
 
