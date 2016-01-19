@@ -8,24 +8,49 @@
   </head>
   <body>
     <header>
+      <div id="header">
+        <img id="coverimage" src="img/clouds.jpg" alt="#">
+        <a href="index.html" title="top"><img id="top" src="http://www.brownthomas.com/content/ebiz/shop/icat/louisvuitton/louis-vuitton-logo.png" alt="stradocover"></a>
+        <div id="navbar"> 
+          <ul id="nav"> 
+            <a id="menulogo" href="index.html"><img height="20px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Louis_Vuitton_logo.svg/2000px-Louis_Vuitton_logo.svg.png"></a>
+            <li><a href="women.html">Women</a>
+              <ul>
+                <li><a href="#">Women's Bags</a></li>
+                <li><a href="#">Women's Wallets</a></li>
+              </ul>
+            </li> 
+            <li><a href="men.html">Men</a>
+              <ul>
+                <li><a href="men.html#section_wallets">Men's Wallets</a></li>
+                <li><a href="men.html#section_briefcases">Men's Briefcases</a></li>
+              </ul>
+            </li> 
+            <li><a href="Upcoming_Events.html">Upcoming Events</a></li> 
+              <a class="sociallogo" href="#"><img height="20px" src="img/fb.png"></a> 
+              <a class="sociallogo" href="#"><img height="21px" src="img/inst.png"></a>  
+          </ul> 
+        </div> 
+      </div> <!-- end of header--> 
     </header>
     <div class="square">
+      <p>THE CLUTCH COLLECTION SUMMER 2016</p>
       <img class="mainbag" src="img/lvbag.png">
     </div>
     <div class="commercial">
-      <iframe width="600" height="340" src="https://www.youtube.com/embed/WLq7HFkuFp4" frameborder="0" allowfullscreen></iframe>
+      <iframe class="commercial_video" width="600" height="340" src="https://www.youtube.com/embed/WLq7HFkuFp4" frameborder="0" allowfullscreen></iframe>
       <a href="http://us.louisvuitton.com/eng-us/stories/ss16-series-4-campaign#/home"><img class="commercial_img" src="img/summerimg.png"></a>
     </div>  
     <section>
-      <ul>
-        <li><a href="#handbags">HANDBAGS</a></li>
-        <li><a href="#shoes">SHOES</a></li>
+      <ul class="selection">
+        <li class="bar"><a href="#handbags">HANDBAGS</a></li>
+        <li class="bar"><a href="#shoes">SHOES</a></li>
       </ul> 
       <div id="handbags">
         <h3>HANDBAGS</h3>
         <img class="bag_1" src="img/bag1.png" 
         onmouseover="this.src='img/bag12.png'" 
-        onmouseout="this.src='img/bag1.png'" >
+        onmouseout="this.src='img/bag1.png'">
 
         <img class="bag_2" src="img/bag2.png"
         onmouseover="this.src='img/bag22.png'" 
@@ -49,6 +74,6 @@
     <footer>
     </footer>  
 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script src="script.js"></script>
+	<script src="women.js"></script>
   </body>	
 </html>
