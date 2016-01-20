@@ -165,10 +165,11 @@ p {
 /*NAV MENU STYLING*/
 /*  header styling */
 #navbar {
-    position: fixed;
+    position: absolute;
     width: 100%;
     top: 12%;
     z-index: 30;
+    margin-bottom: 200px;
     
 }
 
@@ -189,7 +190,7 @@ p {
         text-decoration: none; 
         padding: .2em 1em; 
         color: black; 
-        background-color: white; 
+        background-color: orange; 
         } 
  
 #navbar ul li a:hover { 
@@ -265,10 +266,20 @@ text-align: center;
 	display: inline-block;
 }
 
+
+
+
+
+
+/*FOOTER STYLING*/
 #footer {
+	/*position: absolute;*/
+    /*bottom: 0;*/
+    z-index: 110;
 	width:100%;
-	margin-top:10%;
-	margin-bottom:10%;
+	/*height: 0px;*/
+	margin-top:50%;
+	/*margin-bottom:10%;*/
 }
 
 #footer_stripe {
@@ -283,8 +294,14 @@ text-align: center;
 #listserv_header {
 	display: inline;
 }
+/*FOOTER STYLING*/
 
 
+
+#videobackground {
+	background-color: black;
+	/*margin-top: 200px;*/
+}
 
 
 
