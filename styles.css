@@ -1,3 +1,4 @@
+
 body {
 	width: 100%;
 	margin: auto 0;
@@ -6,9 +7,17 @@ body {
 
 .bodywallpaper {
 	background: url('img/wallpaper.jpg');
+
 }
 
 /*GLOBAL STYLING*/
+#header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
 h1 {
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 24px;
@@ -105,14 +114,18 @@ p {
 	padding: 15px;
 }
 
-
-
 /*SECTION*/
+
+.container {
+   
+   width: 100%;
+   height: 100%;
+}
 
 .square {
 	width: 90%;
 	height:300px;
-	margin: 40px auto;
+	margin: 60px auto;
 	background-color: #000;
 }
 
@@ -136,6 +149,7 @@ p {
 
 .commercial_video {
 	position: absolute;
+	box-shadow: 0 0 40px #000;
 }
 
 .commercial_img {
@@ -143,7 +157,8 @@ p {
 	height: 340px;
 	position: absolute;
 	left: 52%;
-}
+	box-shadow: 0 0 40px #000;
+}	
 
 .selection a{
 	text-decoration: none;
@@ -166,6 +181,8 @@ h3 {
 	background-image: linear-gradient(to top, #181008 5%, #2b0f0e);
 	width: 100%;
 	padding: 15px;
+	box-sizing: border-box;	
+	box-shadow: 0 0 40px #000;
 }
 
 /*HANDBAGS*/
@@ -173,7 +190,10 @@ h3 {
 #handbags img {
 	width: 390px;
 	height: 370px;
-	margin: 30px;	
+	margin: 30px;
+	box-shadow: 0 0 40px #000;
+	border: 2px solid #e59400;	
+	box-sizing: border-box;	
 }
 
 
@@ -185,4 +205,7 @@ h3 {
 	height: 396px;
 	margin: 65px;
 	opacity: 0.8;
+	box-shadow: 0 0 40px #000;
+	border: 2px solid #e59400;
+	box-sizing: border-box;
 }
