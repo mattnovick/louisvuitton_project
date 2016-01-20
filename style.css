@@ -45,57 +45,76 @@ p {
 #mens_header {
     width: 100%;
 	background-color: #ffffff;
-	margin-top: 3%;
-	padding-top: .2%;
-	padding-bottom: .2%;
-	padding-left: 2%;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 10px;
 }
 
 #space {
-	margin-left:2%;
+	margin-left: 10px;
+}
+
+.mens_category {
+    width: 100%;
+	background-color: #ffffff;
+	padding-bottom: 50px;
+	margin-bottom: 200px;
+}
+
+.mens_category h2 {
+	padding-left:50px;
+	padding-top:20px;
+	color: #cdaf9f;
+}
+
+.clear {
+	clear: both;
 }
 
 .product {
 	float: left;
 	height: 346px;
 	width: 346px;
-	margin: 20px;
-	border: 1px solid black;
+	margin-left: 20px;
+	margin-right: 20px;
 }
-
-.mens_category {
-	width: 100%;
-	background-color: #ffffff;
-	margin-top: 3%;
-	padding-top: 0;
-	padding-bottom: 0;
-	padding-left: 2%;
-	
-}
-
-.mens_product_name {
-	display: inline;
-}
-
 
 #multipleWallet {
   background: url('img/multiplewallet.jpg');
   background-size: cover;
+  border: none;
 }
 
 #multipleWallet:hover {
   background: url('img/multiplewallet_hover.jpg');
   background-size: cover;
+  border: none;
 }
 
 #slenderWallet {
   background: url('img/slenderwallet.jpg');
   background-size: cover;
+  border: none;
 }
 
 #slenderWallet:hover {
   background: url('img/slenderwallet_hover.jpg');
   background-size: cover;
+  border: none;
+}
+
+#multipleWalletGraphite {
+  background: url('img/multiplewalletgraphite.jpg');
+  background-size: cover;
+  border: none;
+}
+
+#multipleWalletGraphite:hover {
+  background: url('img/multiplewalletgraphite_hover.jpg');
+  background-size: cover;
+  border: none;
 }
 
 #section_break {
@@ -117,6 +136,15 @@ p {
   background-size: cover;
 }
 
+#briefcaseRed {
+  background: url('img/briefcasered.jpg');
+  background-size: cover;
+}
+
+#briefcaseRed:hover {
+  background: url('img/briefcasered_hover.jpg');
+  background-size: cover;
+}
 
 /* Portrait tablet and below */
 @media all and (max-width: 767px){
